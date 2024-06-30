@@ -44,7 +44,7 @@ pipeline {
                mail bcc: 'berneldahssi@gmail.com', body: '''Terraform deployment is completed.
                Let me know if the changes looks okay.
                Thanks,
-               Dominion System Tech,
+               Dominion System Technoliges, 2024,
               +1 (313) 413-1477''', cc: 'berneldahssi@gmail.com', from: '', replyTo: '', subject: 'Terraform Infra deployment completed!!!', to: 'berneldahssi@gmail.com'
                           
                }    
