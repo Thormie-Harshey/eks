@@ -41,11 +41,11 @@ pipeline {
                 }
         stage ('5. Email Notification') {
             steps {
-               mail bcc: 'berneldahssi@gmail.com', body: '''Terraform deployment is completed.
+               mail bcc: 'ashleyhappi@gmail.com', body: '''Terraform deployment is completed.
                Let me know if the changes looks okay.
                Thanks,
                Dominion System Technoliges, 2024,
-              +1 (313) 413-1477''', cc: 'berneldahssi@gmail.com', from: '', replyTo: '', subject: 'Terraform Infra deployment completed!!!', to: 'berneldahssi@gmail.com'
+              +1 (313) 413-1477''', cc: 'ashleyhappi@gmail.com', from: '', replyTo: '', subject: 'Terraform Infra deployment completed!!!', to: 'ashleyhappi@gmail.com'
                           
                }    
           }
